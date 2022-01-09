@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
                     shape: BoxShape.circle,
                     color: Colors.white,
                     image: DecorationImage(
-                      image: AssetImage('img/bruno.jpg')
+                      image: AssetImage('../img/bruno.jpg')
                     ),
                   ),
                 ),
