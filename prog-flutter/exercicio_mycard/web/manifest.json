@@ -1,6 +1,6 @@
 {
-    "name": "aula_05_01_2022",
-    "short_name": "aula_05_01_2022",
+    "name": "exercicio_mycard",
+    "short_name": "exercicio_mycard",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
