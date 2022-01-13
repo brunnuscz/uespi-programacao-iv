@@ -20,39 +20,50 @@ class MyApp extends StatelessWidget {
             child: Column( 
               mainAxisAlignment: MainAxisAlignment.center, 
               children: [ 
-                Container(
-                  width: 170.0,
-                  height: 170.0,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.white,
-                    image: DecorationImage(
-                      image: AssetImage('../img/bruno.jpg')
-                    ),
-                  ),
+                CircleAvatar(
+                  radius: 85.0,
+                  // backgroundColor: Colors.red,
+                  // child: Text(
+                  //   'B',
+                  //   style: TextStyle(
+                  //     color: Colors.white54,
+                  //     fontSize: 40.0
+                  //   )
+                  // ),
+                  backgroundImage: AssetImage('images/bruno.jpg'),
                 ),
-                SizedBox(
-                  height: 10,
-                ),
+                // Container(
+                //   width: 170.0,
+                //   height: 170.0,
+                //   decoration: BoxDecoration(
+                //     shape: BoxShape.circle,
+                //     color: Colors.white,
+                //     image: DecorationImage(
+                //       image: AssetImage('images/bruno.jpg')
+                //     ),
+                //   ),
+                // ),
                 Text(
-                  'Bruno',
+                  'Bruno Cruz',
                   style: TextStyle(
                     fontSize: 40.0,
+                    fontFamily: 'Pacifico',
                     color: Colors.white
                   ),
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 5,
                 ),
                 Text(
                  'FLUTTER DEVELOPMENT',
                  style: TextStyle(
                    color: Colors.white60,
+                   fontFamily: 'SourceSansPro',
                    fontSize: 18.0
                  ) 
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 15,
                 ),
                 SizedBox(
                   height: 1,
