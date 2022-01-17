@@ -8,7 +8,7 @@ class ExercicioLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Exercicío Layout',
+      title: 'Exercício Layout',
       home: Scaffold(
         backgroundColor: Colors.orange,
         body: SafeArea(
@@ -44,7 +44,6 @@ class ExercicioLayout extends StatelessWidget {
                   )
                 ],
               ),
-              
               Container(
                 width: 100,
                 height: 600,
