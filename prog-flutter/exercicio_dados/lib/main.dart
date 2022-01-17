@@ -4,9 +4,9 @@ import 'dart:math';
 void main() {
   return runApp(MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({ Key? key }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       home: PaginaMeuDado(), 
-      
     );
   }
 }
@@ -24,7 +23,6 @@ class MyApp extends StatelessWidget {
 // StatelessWidget É PARADO // StatefulWidget É ESTADO
 class PaginaMeuDado extends StatefulWidget { // UMA PRO WIDGET
   const PaginaMeuDado({ Key? key }) : super(key: key);
-
   @override
   State<PaginaMeuDado> createState() => _PaginaMeuDadoState();
 }
@@ -33,7 +31,6 @@ class _PaginaMeuDadoState extends State<PaginaMeuDado> { // E OUTRA QUE GERA O E
   // EESTADO PRO DADO 1 E ESTADO PRO DADO 2
   int valorDadoEsquerdo = 1;
   int valorDadoDireito = 1;
-  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
