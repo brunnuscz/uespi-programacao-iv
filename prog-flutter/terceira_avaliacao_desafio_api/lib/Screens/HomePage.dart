@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
               child: Padding(
                 padding: const EdgeInsets.all(30.0),
                 child: Text(
-                  'O que você desesja consultar?',
+                  'O que você deseja consultar?',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: kBranco,
